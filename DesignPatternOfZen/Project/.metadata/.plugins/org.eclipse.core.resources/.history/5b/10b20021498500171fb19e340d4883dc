@@ -1,0 +1,5 @@
+package com.zhi.demo.abstractfactory;
+
+public class MaleYellowHuman {
+
+}
