@@ -1,9 +1,11 @@
 package com.zhi.demo.templatemethod;
 
 /**
+ * 场景类
+ *
  * @author zch
- * @description 场景类
- * @created at 2017/7/20
+ * @version 1.0.0
+ * @since 2017-7-20
  */
 public class Client {
 

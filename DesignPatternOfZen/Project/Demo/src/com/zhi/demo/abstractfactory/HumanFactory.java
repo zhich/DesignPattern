@@ -1,9 +1,11 @@
 package com.zhi.demo.abstractfactory;
 
 /**
+ * 八卦炉接口定义
+ *
  * @author zch
- * @description 八卦炉接口定义
- * @created at 2017/8/20
+ * @version 1.0.0
+ * @since 2017-8-20
  */
 public interface HumanFactory {
 	

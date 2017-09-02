@@ -1,9 +1,11 @@
 package com.zhi.demo.templatemethod;
 
 /**
+ * 抽象悍马模型
+ *
  * @author zch
- * @description 抽象悍马模型
- * @created at 2017/7/20
+ * @version 1.0.0
+ * @since 2017-7-20
  */
 public abstract class HummerModel {
 

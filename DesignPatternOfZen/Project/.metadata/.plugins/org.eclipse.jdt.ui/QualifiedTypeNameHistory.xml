@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.zhi.demo.abstractfactory.Human"/>
+<fullyQualifiedTypeName name="org.w3c.dom.views.AbstractView"/>
+<fullyQualifiedTypeName name="sun.security.x509.AVA"/>
+<fullyQualifiedTypeName name="com.zhi.demo.abstractfactory.AbstractYellowHuman"/>
+<fullyQualifiedTypeName name="com.zhi.demo.abstractfactory.AbstractWhiteHuman"/>
+</qualifiedTypeNameHistroy>

@@ -1,9 +1,11 @@
 package com.zhi.demo.abstractfactory;
 
 /**
+ * 黄色人种抽象类
+ *
  * @author zch
- * @description 黄色人种抽象类
- * @created at 2017/8/20
+ * @version 1.0.0
+ * @since 2017-8-20
  */
 public abstract class AbstractYellowHuman implements Human {
 

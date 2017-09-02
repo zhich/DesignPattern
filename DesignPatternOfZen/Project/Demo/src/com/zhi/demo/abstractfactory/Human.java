@@ -1,9 +1,11 @@
 package com.zhi.demo.abstractfactory;
 
 /**
+ * 人种接口
+ *
  * @author zch
- * @description 人种接口
- * @created at 2017/8/20
+ * @version 1.0.0
+ * @since 2017-8-20
  */
 public interface Human {
 

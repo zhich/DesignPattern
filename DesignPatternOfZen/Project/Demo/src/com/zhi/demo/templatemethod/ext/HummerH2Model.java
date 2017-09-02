@@ -1,9 +1,11 @@
 package com.zhi.demo.templatemethod.ext;
 
 /**
+ * H2型号悍马模型
+ *
  * @author zch
- * @description H2型号悍马模型
- * @created at 2017/7/20
+ * @version 1.0.0
+ * @since 2017-7-20
  */
 public class HummerH2Model extends HummerModel {
 
