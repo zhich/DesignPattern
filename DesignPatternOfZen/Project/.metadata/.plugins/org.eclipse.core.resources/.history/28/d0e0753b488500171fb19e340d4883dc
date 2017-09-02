@@ -1,5 +1,0 @@
-package com.zhi.demo.abstractfactory;
-
-public abstract class AbstractWhiteHuman {
-
-}
