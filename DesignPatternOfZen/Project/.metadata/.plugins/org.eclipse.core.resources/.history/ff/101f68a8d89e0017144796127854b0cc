@@ -1,0 +1,47 @@
+package com.zhi.demo.builder;
+
+import java.util.ArrayList;
+
+/**
+ * 车辆模型的抽象类
+ *
+ * @author zch
+ * @version 1.0.0
+ * @since 2017-9-21
+ */
+public abstract class CarModel {
+
+	/**
+	 * 这个参数是各个基本方法执行的顺序
+	 */
+	private ArrayList<String> sequence = new ArrayList<String>();
+
+	/**
+	 * 启动
+	 */
+	protected abstract void start();
+
+	/**
+	 * 停止
+	 */
+	protected abstract void stop();
+
+	/**
+	 * 喇叭声
+	 */
+	protected abstract void alarm();
+
+	/**
+	 * 引擎会轰隆隆地响
+	 */
+	protected abstract void engineBoom();
+
+	/**
+	 * 把传递过来的值传递到类内
+	 * 
+	 * @param sequence
+	 */
+	public final void setSequence(ArrayList sequence) {
+		this.sequence = sequence;
+	}
+}

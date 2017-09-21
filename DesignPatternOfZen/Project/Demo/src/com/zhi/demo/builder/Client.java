@@ -1,0 +1,31 @@
+package com.zhi.demo.builder;
+
+/**
+ * 场景类
+ *
+ * @author zch
+ * @version 1.0.0
+ * @since 2017-9-21
+ */
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Director director = new Director();
+
+		// 10 辆 A 类型的奔驰车
+		for (int i = 0; i < 10; i++) {
+			director.getABenzModel().run();
+		}
+
+		// 10 辆 B 类型的奔驰车
+		for (int i = 0; i < 10; i++) {
+			director.getBBenzModel().run();
+		}
+
+		// 10 辆 C 类型的宝马车
+		for (int i = 0; i < 10; i++) {
+			director.getCBMWModel().run();
+		}
+	}
+}
